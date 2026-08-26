@@ -1,0 +1,99 @@
+{
+    "name": "datlechin/flarum-keyboard-shortcuts",
+    "description": "Navigate your forum without touching the mouse.",
+    "keywords": [
+        "flarum",
+        "flarum-extension",
+        "keyboard shortcuts",
+        "shortcuts",
+        "accessibility",
+        "hotkeys"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/datlechin/flarum-keyboard-shortcuts/issues",
+        "source": "https://github.com/datlechin/flarum-keyboard-shortcuts",
+        "forum": "https://discuss.flarum.org/d/29773"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/datlechin"
+        },
+        {
+            "type": "custom",
+            "url": "https://buymeacoffee.com/ngoquocdat"
+        }
+    ],
+    "homepage": "https://nqd.vn",
+    "autoload": {
+        "psr-4": {
+            "Datlechin\\KeyboardShortcuts\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Datlechin\\KeyboardShortcuts\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "@test:unit",
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:setup": "echo 'This extension has only unit tests, so there is no test database to set up.'"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:setup": "Does nothing: there are no integration tests to prepare a database for."
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Keyboard Shortcuts",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-keyboard",
+                "backgroundColor": "#D3241C",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "frontendTesting": true,
+                "backendTesting": true,
+                "phpstan": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "flarum/testing": "^2.0"
+    }
+}
