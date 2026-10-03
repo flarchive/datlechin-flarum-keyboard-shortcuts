@@ -2,13 +2,15 @@
 
 > **Read-only archive of released versions of datlechin/flarum-keyboard-shortcuts.** Not for installation: use [Packagist](https://packagist.org/packages/datlechin/flarum-keyboard-shortcuts) or the [upstream repository](https://github.com/flatension/keyboard-shortcuts).
 
-**0** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/datlechin-flarum-keyboard-shortcuts/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
+**3** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/datlechin-flarum-keyboard-shortcuts/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2022-01-01 | `^1.0.0` | [Browse](https://github.com/flarchive/datlechin-flarum-keyboard-shortcuts/tree/archive/v0.1.0) |
+| `v0.1.1` | 2022-01-01 | `^1.0.0` | [Browse](https://github.com/flarchive/datlechin-flarum-keyboard-shortcuts/tree/archive/v0.1.1) |
+| `v1.0.0` | 2026-08-26 | `^2.0` | [Browse](https://github.com/flarchive/datlechin-flarum-keyboard-shortcuts/tree/archive/v1.0.0) |
 
 Catalog entry: [packages/datlechin-flarum-keyboard-shortcuts.json](https://github.com/flarchive/archive-index/blob/main/packages/datlechin-flarum-keyboard-shortcuts.json)
 
